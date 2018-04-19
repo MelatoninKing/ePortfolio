@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Open+Sans:300,400,700');
+
+body {
+  margin: auto;
+  background: #fff;
+  color: #222;
+  font-family: "Lato", sans-serif;
+}
+
+.material-icons {
+  font-size: 40px;
+}
+
+.sidenav {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #222;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 15px 0px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 25px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  font-size: 35px;
+}
+
+.sidenav a:hover {
+  color: #888;
+}
+
+.sidenav .
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+header #button {
+  padding: 15px 50px;
+}
+
+header h1 {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin: 25px 25px 0px 25px;
+}
+
+header p {
+  margin: 0px 25px 25px 25px;
+  font-size: 18px;
+}
+
+#first {
+  background-image: url("https://p10cdn4static.sharpschool.com/UserFiles/Servers/Server_232117/Image/News/What's%20New/schools/school-northwesthighschool.jpg");
+}
+
+#first {
+  background-size: 100%;
+  background-position: 0px 50%;
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+
+#first div:not(#nav) {
+  color: white;
+  padding: 25px;
+  height: 300px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.6)
+}
+
+article #nav {
+  text-align: center;
+}
+
+#nav a{
+  display: inline-block;
+  width: 125px;
+  padding: 35px 0px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+#second p {
+  margin-top: 10px; 
+}
+
+#second a {
+  color: #555;
+}
+
+#second a:visited {
+  color: #888;
+}
+
+#second a:hover {
+  color: #222;
+}
+
+#second img {
+  margin: 10px 20px 10px 0px;
+  float: left;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px;
+}
+
+#nav a:hover {
+  color: #aaaaaa;
+}
+
+article h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: auto;
+}
+
+#second {
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#second p {
+  display: block;
+}
+
+footer {
+  padding: 2px 25px;
+  box-sizing: border-box;
+}
