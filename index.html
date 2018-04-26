@@ -7,26 +7,28 @@
     <title>HOME | ALEX SMITH</title>
     <link rel="stylesheet" href="home.css">
   </head>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html">HOME</a>
-    <a href="about.html">ABOUT</a>
-    <a href="goals.html">MY GOALS</a>
-    <a href="contact.html">CONTACT</a>
-    <a href="credit.html">CREDITS</a>
-  </div>
   <body>
-    <header>
-      <span id="button" style="float:right;font-size:30px; cursor:pointer;" onclick="openNav()">&#9776;</span>
-      <h1><span style="color:#ff3939;">ALEX</span> SMITH</h1>
-      <p>High School ePortfolio</p>
-    </header>
+    <div id="sideNav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">HOME</a>
+      <a  href="#second">ABOUT</a>
+      <a href="works.html">WORKS</a>
+      <a href="goals.html">MY GOALS</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="credit.html">CREDITS</a>
+    </div>
+      <header>
+        <span id="button" style="float:right;font-size:30px; cursor:pointer;" onclick="openNav()">&#9776;</span>
+        <h1><span style="color:#ff3939;">ALEX</span> SMITH</h1>
+        <p>High School ePortfolio</p>
+      </header>
     <article id="first">
       <div>
         <h2>WELCOME TO MY EPORTFOLIO</h2>
         <p> This website has been coded from scratch, the only external sources are a few pictures that are being used as placeholders for the 404 page. Every other element is my original work.</p>
         <div id="nav">
-          <a  href="about.html"><span class="material-icons">account_box</span><br/> ABOUT</a>
+          <a  href="#second"><span class="material-icons">account_box</span><br/> ABOUT</a>
+          <a href="works.html"><span class="material-icons">album</span><br/>WORKS</a>
           <a href="goals.html"><span class="material-icons">school</span><br/>MY GOALS</a>
           <a href="goals.html"><span class="material-icons">mail_outline</span><br/>CONTACT</a>
           <a href="credit.html"><span class="material-icons">	format_align_center</span><br/>CREDIT</a>
@@ -36,7 +38,10 @@
     <article id="second">
       <h2>About Me</h2>
       <img src="alex.JPG">
-      <p>I am a student at Northwest High School, I am interested in music production, 3D/2D animation, writing,  graphic design, and web design. I am currently working on a blog called <a href="https://melatoninking.github.io/Minimal/">MINIMAL</a>, where I will present my ideas and my works. I will also be posting my works here on my ePortfolio. My twitter is <a href="https://www.twitter.com/alexsmithweb">@AlexSmithWeb</a></p>
+      <p>I am a student at Northwest High School, I am interested in music production, 3D/2D animation, writing,  graphic design, and web design. I am currently working on a blog called <a href="https://melatoninking.github.io/Minimal/">MINIMAL</a>, where I will present my ideas and my works. I will also be posting my works here on my ePortfolio. My twitter is <a href="https://www.twitter.com/alexsmithweb">@AlexSmithWeb</a>.</p>
+      <p>I am 15 years old at the moment, and I'm trying to become part of the CMP (Creative Media Production) academy. I currently live in Rhome, and am attempting to learn how to build computers and how to design graphics for logos, as well as video editing. My knowledge in design is already expansive, this website proves it, the only problem is I don't have anything to use these skills on other than websites. I don't have anything but a chromebook, which is what I coded this webpage on.</p>
+      <p>My works include Music, Website Templates (only for those who know html), Art, Designs, as well as Original Short Stories. I am currently working on a full length novel that I hope to get published as some point.</p>
+      <hr>
     </article>
     <footer>
       <p>Project for NISDTX, Hosted on Github, Source Code Can Be Found At <a href="https://github.com/MelatoninKing/ePortfolio.git">www.github.com</a></p>
@@ -44,11 +49,11 @@
     <script>	
       
       function openNav() {  
-        document.getElementById("mySidenav").style.width = "300px";
+        document.getElementById("sideNav").style.width = "300px";
       }
 
       function closeNav() { 
-        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("sideNav").style.width = "0";
       }
     </script>
   </body>
