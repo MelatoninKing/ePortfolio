@@ -60,6 +60,7 @@ header {
   width: 100%;
   margin: auto;
   text-align: left;
+  box-shadow: 0px 0px 10px;
 }
 
 header #button {
@@ -111,23 +112,23 @@ article #nav {
   font-size: 20px;
 }
 
-#second p {
+article p {
   margin-top: 10px; 
 }
 
-#second a {
+article a {
   color: #555;
 }
 
-#second a:visited {
+article a:visited {
   color: #888;
 }
 
-#second a:hover {
+article a:hover {
   color: #222;
 }
 
-#second img {
+#about img {
   margin: 10px 20px 10px 0px;
   float: left;
   width: 100px;
@@ -145,21 +146,22 @@ article h2 {
   margin: auto;
 }
 
-#second {
-  padding: 25px 25px 5px 25px;;
+article:not(#first){
+  padding: 10px 25px;
   box-sizing: border-box;
+  border-bottom: 1px #000 solid;
 }
 
-#second p {
+article p {
   display: block;
 }
 
-#second #overall {
+#about #overall {
   text-decoration: none;
   color: #000;
 }
 
 footer {
-  padding: 0px 25px;
+  padding: 0px 25px 0px 25px;
   box-sizing: border-box;
 }
